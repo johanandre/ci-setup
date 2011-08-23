@@ -40,7 +40,7 @@ class MY_Loader extends CI_Loader
     {
         if(!defined('SPARKPATH'))
         {
-            define('SPARKPATH', 'sparks/');
+            define('SPARKPATH', '../sparks/');
         }
 
         parent::__construct();
